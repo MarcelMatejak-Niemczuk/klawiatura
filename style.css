@@ -1,0 +1,44 @@
+body,html {
+    font-family: Helvetica;
+    background-color:  #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+}
+
+nav,footer {
+    background-color:  #625B5B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    margin-left: 40px;
+    list-style-type: circle;
+}
+
+.odsylacze {
+    font-weight: bold;
+    background-color: #EAEAEA;
+    color: #625B5B;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.odsylacze:hover {
+    background-color: #625B5B;
+    color: #EAEAEA ;
+    border: 1px solid #EAEAEA;
+}
+
+table {
+    border: 1px dashed #625B5B;
+    width: 60%;
+    margin-left: 40px;
+    text-align: center;
+}
