@@ -14,7 +14,7 @@ function obliczRate() {
 
     var raty = parseInt(ratyInput.value);
     if (isNaN(raty) || raty < 2) {
-        wynikElement.innerText = "Wpisz conajmniej 2";
+        wynikElement.innerText = "Wpisz conajmniej 2 raty";
         return;
     }
 
